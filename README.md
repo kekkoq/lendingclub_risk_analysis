@@ -16,17 +16,17 @@
 4. Data Dictionary
 To ensure accurate risk modeling, the following key features were extracted from the 2.2M+ record dataset:
 
-`loan_amnt`: The listed amount of the loan applied for by the borrower.
-`int_rate`: Interest Rate on the loan.
-`grade`: LendingClub assigned loan grade (A–G) based on borrower creditworthiness.
-`annual_inc`: The self-reported annual income provided by the borrower during registration.
-`issue_d`: The month which the loan was funded; used to filter for the 2016–2018 portfolio.
-`loan_status`: Current status of the loan (e.g., Fully Paid, Charged Off, Current). 
-`purpose`: A category provided by the borrower for the loan request (e.g., debt consolidation, credit card).
-`state` : State where a loan was issued.
-`dti:` Debt-To-Income ratio; a ratio calculated using the borrower’s total monthly debt payments divided by their monthly income.
+- `loan_amnt`: The listed amount of the loan applied for by the borrower.
+- `int_rate`: Interest Rate on the loan.
+- `grade`: LendingClub assigned loan grade (A–G) based on borrower creditworthiness.
+- `annual_inc`: The self-reported annual income provided by the borrower during registration.
+- `issue_d`: The month which the loan was funded; used to filter for the 2016–2018 portfolio.
+- `loan_status`: Current status of the loan (e.g., Fully Paid, Charged Off, Current). 
+- `purpose`: A category provided by the borrower for the loan request (e.g., debt consolidation, credit card).
+- `state` : State where a loan was issued.
+- `dti:` Debt-To-Income ratio; a ratio calculated using the borrower’s total monthly debt payments divided by their monthly income.
 
-5. Key Data Transformations & Logic
+1. Key Data Transformations & Logic
 The following logic was implemented within Tableau to transform raw loan data into actionable financial metrics:
 
 - Yield Delta: A parameter ranging from -0.5% to 0.5% is added to the historical interest rate field.

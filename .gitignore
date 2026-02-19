@@ -1,0 +1,25 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Environments
+.venv/
+env/
+venv/
+
+# Data & Credentials (Very important for security)
+*.csv
+*.env
+*.db
+*.gz
+secrets.json
+
+# IDEs
+.vscode/
+.idea/
+
+.DS_Store
+node_modules
+.tmp
+npm-debug.log
+pipeline.log
